@@ -1,0 +1,71 @@
+[
+  {
+    "ContainingType": "TwitterSchedulerHangfire.Controllers.TweetsController",
+    "Method": "PostTweet",
+    "RelativePath": "api/Tweets",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postTweetRequestDto",
+        "Type": "TwitterSchedulerHangfire.PostTweetRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TwitterSchedulerHangfire.Controllers.TweetsController",
+    "Method": "ScheduleTweets",
+    "RelativePath": "api/Tweets/bulk",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TwitterSchedulerHangfire.PostScheduledTweetListDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TwitterSchedulerHangfire.Controllers.TweetsController",
+    "Method": "ScheduleTweet",
+    "RelativePath": "api/Tweets/Schedule",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newTweet",
+        "Type": "TwitterSchedulerHangfire.PostScheduledTweetRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TwitterSchedulerHangfire.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TwitterSchedulerHangfire.WeatherForecast, TwitterSchedulerHangfire, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

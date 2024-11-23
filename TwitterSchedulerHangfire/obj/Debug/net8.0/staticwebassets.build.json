@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "4aDRN6fa7GAgubWtITXHtt7kT1mYt1CkbitX1hZNTFU=",
+  "Source": "TwitterSchedulerHangfire",
+  "BasePath": "_content/TwitterSchedulerHangfire",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
